@@ -1,3 +1,5 @@
+# Vite library mode assets
+
 1. Run `pnpm install`.
 2. Run `pnpm build` on `packages/worker`.
 3. Run `pnpm dev` on `packages/main`.
