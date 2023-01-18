@@ -5,6 +5,17 @@ importers:
   .:
     specifiers: {}
 
+  packages/main:
+    specifiers:
+      typescript: ^4.9.4
+      vite: ^4.0.4
+      worker: workspace:*
+    dependencies:
+      worker: link:../worker
+    devDependencies:
+      typescript: 4.9.4
+      vite: 4.0.4
+
   packages/worker:
     specifiers:
       typescript: ^4.9.4
